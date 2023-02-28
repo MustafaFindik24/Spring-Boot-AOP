@@ -38,5 +38,14 @@ AOP kullanımı için belirli advice türleri mevcuttur.
 
 Around dışındaki advice türlerinin JoinPoint ile kullanımı önerilmektedir. Around ise ProcedingJoinPoint ile kullanımı önerilir. Biz uygulamamızda ikisini birden kullandık. 
 
+JoinPoint sınıfını kullanarak @Before advice ını kullandık. İçerisinde belirtilen value ise çalışması gereken sınıf veya sınıfları düzenlemek için kullandık. Sırasıyla paket adı, sınıf adı, ve metot adı belirtilir. Eğer spesifik bir yer belirtilmesi istenmiyorsa ilgili yerlere * işareti konulur.
+
+![image](https://user-images.githubusercontent.com/91599453/221850683-fde3697c-d54a-46a0-af65-4dea3d85283d.png)
+
+Pointcut kullanarak @Around metodunun nerede çalışması gerektiğini belirttik. ObjectMapper sınıfı üzerinden nesne üretip JSON formatında logging kullanarak ekranda göstermek için info() metodunu kullandık. 
+
+![image](https://user-images.githubusercontent.com/91599453/221851874-c75507eb-24ea-46cb-adb2-83896bf95732.png)
+
+
 
 
