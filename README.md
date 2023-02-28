@@ -30,11 +30,11 @@ AOP kullanımı için belirli advice türleri mevcuttur.
 
 ![image](https://user-images.githubusercontent.com/91599453/221846021-a274bb76-8d8a-4a38-9088-18f4859f990c.png)
 
-@Before : Belirtilen metot çalışmadan önce çalışacak olan kod bloğudur.
-@AfterThrowing : Belirtilen metodun exception dönmesi durumunda çalışacak olan metotdur.
-@AfterReturning : Belirtilen metot başarılı şekilde çalıştıktan sonra çalışacak olan metotdur.
-@After : Belirtilen metot çalıştıktan sonra çalışacak olan kod bloğudur.
-@Around : Belirtilen metodun öncesinde ve sonrasında çalışacak olan kod bloğudur.
+* @Before : Belirtilen metot çalışmadan önce çalışacak olan kod bloğudur.
+* @AfterThrowing : Belirtilen metodun exception dönmesi durumunda çalışacak olan metotdur.
+* @AfterReturning : Belirtilen metot başarılı şekilde çalıştıktan sonra çalışacak olan metotdur.
+* @After : Belirtilen metot çalıştıktan sonra çalışacak olan kod bloğudur.
+* @Around : Belirtilen metodun öncesinde ve sonrasında çalışacak olan kod bloğudur.
 
 Around dışındaki advice türlerinin JoinPoint ile kullanımı önerilmektedir. Around ise ProcedingJoinPoint ile kullanımı önerilir. Biz uygulamamızda ikisini birden kullandık. 
 
