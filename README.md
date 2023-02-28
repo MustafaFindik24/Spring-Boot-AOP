@@ -46,6 +46,10 @@ Pointcut kullanarak @Around metodunun nerede çalışması gerektiğini belirtti
 
 ![image](https://user-images.githubusercontent.com/91599453/221851874-c75507eb-24ea-46cb-adb2-83896bf95732.png)
 
+Postman üzerinden Service paketimizde bulunan UserServiceImpl içerisindeki saveUser() metodunu tetikleyip ekranda log bilgileri gözükecektir.
+
+![image](https://user-images.githubusercontent.com/91599453/221852336-d4c30995-93a0-49a1-99e8-6a72c6c2be40.png)
+
 
 
 
